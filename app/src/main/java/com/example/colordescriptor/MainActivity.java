@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         String description = getDescriptionByPosition(position);
         textViewDescriptionTemp.setText(description);
     }
-
     private String getDescriptionByPosition(int position) {
         String[] descriptions = getResources().getStringArray(R.array.description_of_temp);
         return descriptions[position];
